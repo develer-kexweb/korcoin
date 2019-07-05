@@ -1,0 +1,388 @@
+@charset "utf-8";
+@media all and (max-width:1200px){
+    .page-width{
+        width: 96%;
+        margin:0 2%;
+    }
+    #index-banner-bg > h1{
+        font-size: 36px;
+        margin-left:-220px;
+    }
+    #index-banner-bg > span{
+        font-size: 36px;
+    }
+    #index-banner-bg > h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #content-4 #kor-4 > li:after{
+        position: absolute;
+        top: 60px;
+        left:80%;
+        right: 10px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 1024px){
+    #content-2 #kor-2{
+        height: auto;
+    }
+    #content-2 #kor-2 > li{
+        text-align: center;
+        width: 50%;
+    }
+    #content-2 #kor-2 > li:nth-child(2n) > img{
+        top: 0;
+    }
+
+    #content-2 #kor-2 > li > h5{
+        margin-top: 240px;
+    }
+    #vision-background{
+        width: 600px;
+        height: 500px;
+    }
+}
+@media all and (max-width: 860px){
+    #content-1 #kor-1 #con-1{
+        position: absolute;
+        left: 15%;
+        margin-left: 0;
+        width: 70%;
+    }
+    #content-1 #kor-1 #con-2{
+        position: absolute;
+        width: 70%;
+        left: 15%;
+        top: 0px;
+        margin-left: 0;
+    }
+}
+@media all and (max-width:768px){
+    h5{
+        font-size: 21px;
+    }
+    header{
+        height: 50px;
+    }
+    #header-top{
+        display:none;
+    }
+    #header-menu #kor-logo{
+        margin-left: 20px;
+        width: 70px;
+        margin-top: 10px;
+    }
+    #menu-bx{
+        display:none;
+    }
+    #mobile-menu-button{
+        width : 30px;
+        height : 30px;
+        background : url(../images/mobile-btn.svg) no-repeat;
+        background-size:contain;
+        position : absolute;
+        right : 10px;
+        top : 10px;
+        display : block;
+    }
+    #mobile-bg{
+        top: 0;
+        position: fixed;
+        display: block;
+        right: -300px;
+        width: 300px;
+        height: 100%;
+        background: #ffffff;
+        z-index: 100;
+    }
+    #mobile-bg.open{
+        box-shadow: 0px 0px 35px rgba(0,0,0,0.3);
+    }
+    #mobile-close{
+        width: 30px;
+        height: 30px;
+        background : url(../images/mobile-close.svg) no-repeat;
+        background-size:contain;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #mobile-bg #mobile-menu-bx{
+        position: relative;
+        
+    }
+    #mobile-bg #mobile-menu-bx > ul{
+        padding-left:0;
+    }
+    #mobile-bg #mobile-menu-bx > ul > li{
+        width: 100%;
+    }
+    #mobile-bg #mobile-menu-bx > ul > li > a{
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        color: #000;
+        border-bottom: 1px solid #eee;
+        padding-left: 15px;
+    }
+    #mobile-bg #mobile-menu-bx .sub{
+        display: none;
+        padding:0;
+    }
+    #mobile-bg #mobile-menu-bx .sub > li > a{
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 20px;
+        background:#333;
+        color: #ffffff;
+        border-bottom: 1px solid #444;
+        transition: all 0.2s ease;
+    }
+    #mobile-bg #mobile-menu-bx .sub > li > a:hover{
+        background: #000;
+    }
+    #mobile-bg #mobile-login-bx{
+        text-align :center;
+    }
+    #mobile-bg #mobile-login-bx > a{
+        display: inline-block;
+        width: 70px;
+        height: 30px;
+        margin-top: 20px;
+        margin: 0 5px;
+        color: #666;
+        border: 1px solid #666;
+        line-height: 30px;
+    }
+    #content-3 #kor-3 >li{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    #content-3 #kor-3 >li > img{
+        width: 200px;
+        position: relative;
+        margin:0 auto;
+        float: none !important;
+    }
+    #content-3 #kor-3 > li > div > h5:after{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    #content-3 #kor-3 > li > div > h5{
+        line-height: 36px;
+        text-align : center;
+        padding: 0 20px;
+    }
+    #content-3 #kor-3 > li > div > p{
+        text-align :center;
+        padding: 0 20px;
+    }
+    #content-3 #kor-3 > li > div{
+        width: 100%;
+        margin:0;
+    }
+    #content-4 #kor-4 > li{
+        width: 50%;
+    }
+    #content-4 #kor-4 > li:after{
+        display: none;
+    }
+    #content-5 #kor-6{
+        width: 100%;
+        padding: 0;
+    }
+    #history-list{
+        width: 96%;
+        margin:0 2%;
+    }
+    #history-list > li > h1:before{
+        width: 42px;
+        margin-left: 8px;
+        height: 42px;
+    }
+    #history-list > li > h1{
+        padding-left:55px;
+    }
+    #history-list > li > ul > li{
+        margin-left: 30px;
+        line-height: 28px;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    #history-list > li > h1{
+        font-size: 36px;
+    }
+    section > article#kor-info{
+        width: 100%;
+    }
+    section > #kor-info-bg{
+        position:relative;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        height:400px;
+    }
+}
+@media all and (max-width:640px){
+    h3{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    #login{
+        width: 100%;
+    }
+    #content-1 #kor-1{
+        height: 600px;
+    }
+    #content-1 #kor-1 > h5{
+        padding-top: 200px;
+        top: 140px;
+    }
+    #content-1 #kor-1 > p{
+        top: 140px;
+    }
+    #content-5 #kor-5 > li{
+        width: 100%;
+    }
+    .page-title-bg{
+        height: 100px;
+        text-align: center;
+    }
+    .page-title-bg p{
+        margin-top: 15px;
+    }
+    section.sub-contents{
+        margin-top: 100px;
+    }
+    #info-member-pic > img:first-child{
+        display:none;
+    }
+    #info-member-pic > img:last-child{
+        display:block;
+    }
+    #history-bg{
+        opacity:0.3;
+    }
+    #coin-crypto-img > img:first-child{
+        display: none;
+    }
+    #coin-crypto-img > img:last-child{
+        display: block;
+    }
+    #vision-list > li:before, 
+    #system-list > li:before{
+        width: 30px;
+        height: 30px;
+        top:10px;
+    }
+    #vision-background{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        top: 0;
+        background-position: center;
+    }
+
+    #vision-list > li, 
+    #system-list > li{
+        font-size: 16px;
+        padding:10px 0px;
+        height:auto;
+        padding-left: 40px;
+        line-height: 30px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    footer #footer-menu > ul{
+        width: 100%;
+        padding:0;
+        height: auto;
+    }
+    footer #footer-menu > ul > li{
+        font-size: 14px;
+    }
+    footer #address{
+        text-align :center;
+    }
+    footer #address > img{
+        float:none;
+    }
+    footer #address address{
+        font-size: 12px;
+    }
+
+}
+@media all and (max-width:480px){
+    #index-banner-bg > h1{
+        margin-left:-140px;
+        font-size: 24px;
+        padding: 0px;
+    }
+    #index-banner-bg > span{
+        font-size: 24px;
+        margin-left: 4px;
+    }
+    #index-banner-bg > h3{
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    #content-1 #kor-1{
+        height: 500px;
+    }
+    #content-1 #kor-1 > h5{
+        padding: 0 15px;
+        top:250px;
+    }
+    #content-1 #kor-1 > p{
+        padding:0 20px;
+        top:250px;
+    }
+    #content-1 #kor-1 #con-1.motion-ani.obj-ani{
+        top: 30px;
+    }
+    
+    #content-2 #kor-2 > li{
+        width: 100%;
+        height: 300px;
+    }
+    #content-2 #kor-2 > li > img{
+        width: 110px;
+        margin-left: -55px;
+    }
+    #content-2 #kor-2 > li > h5{
+        margin-top: 160px !important;
+    }
+    #content-4 #kor-4 > li > h3{
+        font-size: 18px;
+    }
+    #content-4 > p{
+        padding: 0 20px;
+    }
+    #content-4 #kor-4 > li:nth-child(2):after{
+        top: 110px;
+        left: 10%;
+    }
+    
+    #content-5 #kor-6 > li{
+        width: 50%;
+        margin: 2% 25%;
+    }
+    section > #kor-info-bg{
+        position:relative;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        height:300px;
+    }
+}
