@@ -60,6 +60,7 @@ input[type=button]{
     color: #ffffff;
     font-size: 16px;
     transition: all ease 0.2s;
+    cursor:pointer;
 }
 input[type=submit]:hover,
 input[type=button]:hover{
@@ -118,6 +119,43 @@ input[type=button]:hover{
 }
 #login-menu > a:hover{
     text-decoration: underline;
+}
+/* -------------join-------------------- */
+#term-form .join-term{
+    width: 100%;
+    height: 200px;
+    background:#eee;
+}
+#term-form{
+    text-align: right;
+}
+#term-form h5{
+    margin:0;
+    margin-top: 40px;
+    text-align: left;
+}
+#term-form p{
+    margin-top:0;
+    text-align: left;
+}
+#term-form label{
+    display:inline-block;
+    margin-top: 20px;
+}
+#term-form hr{
+    margin:20px 0px;
+    border: 1px solid #eee;
+}
+#term-form > div{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#term-form input[type=submit]{
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
 }
 /* -------------header------------------ */
 header{
@@ -773,38 +811,45 @@ section #kor-info-bg{
     right: 0;
 }
 /* -----------------contact-------------------- */
-section table.list{
+section .table-list{
     width:100%;
     border-collapse:collapse;
+    border-top:3px solid #1c66b1;
 }
-section table.list > thead> tr > th{
-    height: 50px;
-    border-bottom: 1px solid #1c66b1;
-    font-size: 18px;
-    color: #1c66b1;
+section .table-list > li > div{
+    float:left;
 }
-section table.list > tbody > tr {
+section .table-list .num{
+    width: 5%;
+    text-align:center;
+}
+section .table-list .subject{
+    width: 80%;
+    overflow: hidden;
+}
+section .table-list .date{
+    width: 15%;
+    text-align: center;
+}
+section .table-list > li {
     position: relative;
     height: 50px;
     text-align :center;
     transition: all ease 0.2s;
+    line-height: 50px;
 }
-section table.list > tbody > tr td a{
+section .table-list .subject a{
     position: relative;
     color: #000;
     display:block;
     height: 100%;
-
+    text-align: left;
 }
-section table.list > tbody > tr:nth-child(2n){
+section .table-list > li:nth-child(2n){
     background:#eee;
 }
-section table.list > tbody > tr:hover{
+section .table-list > li:hover{
     background: #ddd;
-}
-section table.list > tbody > tr > td:nth-child(2){
-    text-align: left;
-    text-indent: 20px;
 }
 section table.list > tbody > tr:last-child{
     border:0;
@@ -850,6 +895,39 @@ section .search > input[type=search]{
 section .search > input[type=submit]{
     width: 60px;
     height: 40px;
+}
+.content-subject{
+    width: 100%;
+    height:auto;
+    border-bottom: 2px solid #1c66b1;
+    padding: 10px 20px;
+}
+
+.content-subject .title{
+    width: 100%;
+    font-size: 24px;
+}
+.content-subject .date{
+    text-align: left;
+    color: #aaa;
+    margin-top: 10px;
+}
+.content-view{
+    border-bottom: 1px solid #aaa;
+}
+.bottom-button{
+    width: 100%;
+    text-align: center;
+}
+.bottom-button > input[type=submit]{
+    width: 100px;
+    height: 40px;
+    margin:0 5px;
+    margin-top: 30px;
+}
+.bottom-button > input[type=submit]:last-child{
+    right:0;
+    position: absolute;
 }
 /* ----------------- footer-------------------- */
 footer{

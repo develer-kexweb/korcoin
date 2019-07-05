@@ -303,7 +303,39 @@
         line-height: 30px;
         border-bottom: 1px solid #ddd;
     }
-
+    section .table-list .num{
+        width: 10%;
+        font-size: 13px;
+    }
+    section .table-list .subject{
+        width: 65%;
+    }
+    section .table-list .subject a{
+        font-size: 14px;
+    }
+    section .table-list .date{
+        font-size: 12px;
+        width: 25%;
+        color: #666;
+    }
+    section .pagination > ul > li > a{
+        width: 30px;
+        height: 30px;
+        margin:5px 1px;
+        font-size: 14px;
+    }
+    section .search > input[type=search]{
+        width: 96%;
+        margin:2%;
+    }
+    section .search > input[type=submit]{
+        margin-top: 20px;
+    }
+    .bottom-button > input[type=submit]{
+        width: 70px;
+        height: 30px;
+        font-size: 14px;
+    }
     footer #footer-menu > ul{
         width: 100%;
         padding:0;
@@ -321,7 +353,6 @@
     footer #address address{
         font-size: 12px;
     }
-
 }
 @media all and (max-width:480px){
     #index-banner-bg > h1{

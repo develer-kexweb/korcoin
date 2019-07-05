@@ -9,72 +9,58 @@
 <!------------------------- contents --------------------------->
 <section class="sub-contents page-width">
     <h5>KOR 코인관련 각종 소식을 전해드립니다.</h5>
-    <table class="list" id="notice-list">
-         <colgroup>
-             <col width="5%">
-             <col width="auto">
-             <col width="10%">
-             <col width="10%">
-        </colgroup>
-         <thead>
-             <tr>
-                <th>번호</th>
-                <th>제목</th>
-                <th>작성자</th>
-                <th>작성일</th>
-             </tr>
-         </thead>
-         <tbody>
-             <tr>
-                 <td>1</td>
-                 <td><a href="#">새로운 공지사항입니다.</a></td>
-                 <td>관리자</td>
-                 <td>2019.07.05</td>
-             </tr>
-             <tr>
-                 <td>1</td>
-                 <td><a href="#">새로운 공지사항입니다.</a></td>
-                 <td>관리자</td>
-                 <td>2019.07.05</td>
-             </tr>
-             <tr>
-                 <td>1</td>
-                 <td><a href="#">새로운 공지사항입니다.</a></td>
-                 <td>관리자</td>
-                 <td>2019.07.05</td>
-             </tr>
-             <tr>
-                 <td>1</td>
-                 <td><a href="#">새로운 공지사항입니다.</a></td>
-                 <td>관리자</td>
-                 <td>2019.07.05</td>
-             </tr>
-             <tr>
-                 <td>1</td>
-                 <td><a href="#">새로운 공지사항입니다.</a></td>
-                 <td>관리자</td>
-                 <td>2019.07.05</td>
-             </tr>
-             <tr>
-                 <td>1</td>
-                 <td><a href="#">새로운 공지사항입니다.</a></td>
-                 <td>관리자</td>
-                 <td>2019.07.05</td>
-             </tr>
-             <tr>
-                 <td>1</td>
-                 <td><a href="#">새로운 공지사항입니다.</a></td>
-                 <td>관리자</td>
-                 <td>2019.07.05</td>
-             </tr>
-             <tr>
-                 <td>1</td>
-                 <td><a href="#">새로운 공지사항입니다.</a></td>
-                 <td>관리자</td>
-                 <td>2019.07.05</td>
-             </tr>
-         </tbody>
-    </table>
+    <ul class="table-list" id="notice-list">
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+        <li>
+            <div class="num">1</div>
+            <div class="subject"><a href="notice-content.php" target="_parent"> 새로운 공지사항입니다.</a></div>
+            <div class="date">2019.07.05</div>
+        </li>
+    </ul>
 
     <div class="pagination" id="notice-paging">
         <ul>
