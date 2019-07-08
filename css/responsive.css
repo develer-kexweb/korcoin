@@ -324,7 +324,7 @@
         margin:5px 1px;
         font-size: 14px;
     }
-    section .search > input[type=search]{
+    section .search > form > input[type=search]{
         width: 96%;
         margin:2%;
     }

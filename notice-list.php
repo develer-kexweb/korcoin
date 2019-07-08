@@ -77,8 +77,11 @@
         </ul>
     </div>
     <div class="search" id="notice-search">
+    <form action="">
         <input type="search" name="" id="" placeholder="검색어를 입력해주세요.">
-        <input type="submit" value="검색">
+    </form>
+    <a href="#" class="button" id="search">검색</a>
+
     </div> 
 </section>
 <!------------------------- contents --------------------------->

@@ -54,7 +54,8 @@ input[type=search]{
     border: 1px solid #1c66b1;
 }
 input[type=submit],
-input[type=button]{
+input[type=button],
+.button{
     background:  linear-gradient(to right,#1c66b1 ,#148d9c);
     border:0;
     color: #ffffff;
@@ -63,7 +64,8 @@ input[type=button]{
     cursor:pointer;
 }
 input[type=submit]:hover,
-input[type=button]:hover{
+input[type=button]:hover,
+.button:hover{
     background: linear-gradient(to right,#1e5288 ,#286969);
 }
 /* ---------------login------------------ */
@@ -100,10 +102,9 @@ input[type=button]:hover{
 }
 #login input[type=submit]{
     display: block;
-    width: 96%;
+    width: 100%;
     height: 40px;
-    margin: 0 2%;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 #login-menu{
     width: 100%;
@@ -887,13 +888,11 @@ section .search{
     text-align: center;
     padding-top: 30px;
 }
-section .search > input[type=search]{
-    width: 400px;
-    height: 40px;
-    
+section .search > form{
+    display:inline-block;
 }
-section .search > input[type=submit]{
-    width: 60px;
+section .search > form > input[type=search]{
+    width: 400px;
     height: 40px;
 }
 .content-subject{
@@ -928,6 +927,12 @@ section .search > input[type=submit]{
 .bottom-button > input[type=submit]:last-child{
     right:0;
     position: absolute;
+}
+.search #search{
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
 }
 /* ----------------- footer-------------------- */
 footer{

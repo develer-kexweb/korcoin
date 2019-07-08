@@ -16,8 +16,8 @@
             <input type="text" name="" id="kor-member-id" placeholder="이메일을 입력하세요">
             <label for="kor-member-pw">비밀번호</label>
             <input type="password" name="" id="kor-member-pw" placeholder="비밀번호를 입력하세요">
-        </form>
-        <input type="submit" value="로그인">
+            <input type="submit" value="로그인">
+        </form>   
     </div>
     <div id="login-menu">
         <a href="#">회원가입</a>
