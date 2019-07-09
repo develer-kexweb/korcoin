@@ -71,6 +71,12 @@
     header{
         height: 50px;
     }
+    #login > form,
+    #term-form,
+    #term-member{
+        width: 100%;
+        padding: 0 2%;
+    }
     #header-top{
         display:none;
     }
@@ -293,7 +299,7 @@
         top: 0;
         background-position: center;
     }
-
+   
     #vision-list > li, 
     #system-list > li{
         font-size: 16px;
@@ -331,6 +337,21 @@
     section .search > input[type=submit]{
         margin-top: 20px;
     }
+    .sub-contents .bank-table > li > .table-subject{
+        width: 50%;
+    }
+    .sub-contents .bank-table > li > .table-content{
+        width: 50%;
+    }
+    .sub-contents .bank-table#bank-account > li > .table-content{
+        width: 100%;
+        text-align: left;
+    }
+    .sub-contents .bank-table#bank-account button{
+        width: 30%;
+        margin:10px 0px;
+        margin-left:18%;
+    }
     .bottom-button > input[type=submit]{
         width: 70px;
         height: 30px;
@@ -355,6 +376,27 @@
     }
 }
 @media all and (max-width:480px){
+    #join-complete-menu > button{
+        width: 48%;
+        font-size: 14px;
+    }
+    #term-member > input[type=text]{
+        width:100%;
+    }
+    #term-member input[type=submit]{
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+    #term-member > input[type=button]{
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin: 0 auto;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
     #index-banner-bg > h1{
         margin-left:-140px;
         font-size: 24px;

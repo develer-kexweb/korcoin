@@ -55,7 +55,7 @@ input[type=search]{
 }
 input[type=submit],
 input[type=button],
-.button{
+.button,button{
     background:  linear-gradient(to right,#1c66b1 ,#148d9c);
     border:0;
     color: #ffffff;
@@ -65,36 +65,42 @@ input[type=button],
 }
 input[type=submit]:hover,
 input[type=button]:hover,
-.button:hover{
+.button:hover,
+button:hover{
     background: linear-gradient(to right,#1e5288 ,#286969);
 }
 /* ---------------login------------------ */
-#login{
-    width: 500px;
-    margin: 0 auto;
+#login,
+#join-complete{
     text-align :center;
 }
-#login > img{
+#login > img,
+#join-complete > img{
     width: 200px;
     height: 200px;
 }
-#login > span{
+#login > span,
+#join-complete > span{
     display:block;
     font-size: 24px;
     margin-bottom: 20px;
 }
-#login > form{
+#login > form,
+#term-form,
+#term-member,
+#member-cert{
     text-align: left;
     display: block;
-    width: 100%;
-    padding: 0 2%;
+    width: 700px;
+    margin:0 auto;
+    position: relative;
 }
 #login > form > label{
     width: 100%;
     display: block;
     height: 40px;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 14px;
 }
 #login > form > input{
     width: 100%;
@@ -106,7 +112,8 @@ input[type=button]:hover,
     height: 40px;
     margin-top: 40px;
 }
-#login-menu{
+#login-menu,
+#join-complete-menu{
     width: 100%;
     text-align: center;
     margin-top:40px;
@@ -120,6 +127,10 @@ input[type=button]:hover,
 }
 #login-menu > a:hover{
     text-decoration: underline;
+}
+#join-complete-menu > button{
+    width: 200px;
+    height: 40px;
 }
 /* -------------join-------------------- */
 #term-form .join-term{
@@ -158,13 +169,89 @@ input[type=button]:hover,
     display: inline-block;
     text-align: center;
 }
+#term-member > label{
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+#term-member > input[type=text],
+#term-member > input[type=password]{
+    width: 100%;
+    height:40px;
+}
+#term-member > input[type=text]{
+    width:80%;
+}
+#term-member > input[type=button]{
+    width: 19%;
+    height: 40px;
+}
+#term-member > hr{
+    border: 0;
+    background: #ddd;
+    height: 1px;
+}
+#term-member > div{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+#term-member input[type=submit]{
+    width: 100px;
+    height: 40px;
+}
+#member-cert > label{
+    width: 180px;
+    display:inline-block;
+    height: 40px;
+    vertical-align:middle;
+    line-height: 40px;
+    font-size: 18px;
+}
+#member-cert > p{
+    margin-bottom: 60px;
+}
+#member-cert > span{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 800;
+}
+#member-cert > input[type=text]{
+    width: 410px;
+    height: 40px;
+}
+#member-cert > hr {
+    border:0;
+    height:2px;
+    background: #eee;
+}
+#member-cert > input[type=button]{
+    width: 100px;
+    position:absolute;
+    right:0;
+    height: 40px;
+}
+#member-cert > div{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+#member-cert input[type=submit]{
+    width: 100px;
+    height: 40px;
+}
 /* -------------header------------------ */
 header{
     position: relative;
     height: 120px;
     width: 100%;
     background: #ffffff;
+    border-bottom: 1px solid #aaaa;
     box-shadow: 0px 0px 35px rgba(0,0,0,0.16);
+    z-index: 100;
 }
 #header-top{
     width: 100%;
@@ -218,7 +305,8 @@ header{
     width:100%;
     height: 0;
     display: none;
-    background: rgba(0,0,0,0.6);
+    background: rgba(255,255,255);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     top: 120px;
     z-index: 10;
 }
@@ -251,7 +339,7 @@ header{
     overflow: hidden;
 }
 #menu-bx .sub:hover{
-    background:#000;
+    background:#1c66b1;
 }
 #menu-bx .sub > li{
     position:relative;
@@ -280,10 +368,14 @@ header{
     height: 40px;
     font-size: 16px;
     line-height: 40px;
-    color: #aaa;
+    color: #000;
+    transition: all 0.2s ease;
+}
+#menu-bx .sub:hover > li > a{
+    color:#ffffff;
 }
 #menu-bx .sub > li > a:hover{
-    color:#ffffff;
+    background: #00358e; 
 }
 /* --------------------main contents--------------- */
 #index-banner-bg{
@@ -810,6 +902,100 @@ section #kor-info-bg{
     top:100px;
     z-index: -10;
     right: 0;
+}
+/* -----------------exchange-------------------- */
+.sub-contents > aside > dl > dt{
+    height: auto;
+}
+.sub-contents > aside > dl > dt > p{
+    line-height: 24px;
+}
+.sub-contents .wallet-table{
+    position:relative;
+    width: 100%;
+    overflow:hidden;
+    margin-top: 20px;
+}
+.sub-contents .wallet-table > li:nth-child(2n-1) > .table-content{
+    background: #eee;
+}
+.sub-contents .wallet-table .table-subject{
+    border-bottom: 3px solid #1c66b1;
+    float:left;
+    position:relative;
+    text-align :center;
+    height: 50px;
+    line-height: 50px;
+}
+.sub-contents .wallet-table .table-content{
+    float: left;
+    text-align: center;
+    width:  100%;
+    height: 50px;
+    position:relative;
+    line-height: 50px;
+}
+.sub-contents .wallet-table .coin-title{
+    width: 20%;
+}
+.sub-contents .wallet-table .coin-nickname{
+    width: 20%;
+}
+.sub-contents .wallet-table .coin-address{
+    width: 60%;
+}
+.sub-contents #wallet,
+.sub-contents #bank-address{
+    position:relative;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.sub-contents #wallet > button,
+.sub-contents #bank-address > button{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left:-200px;
+    margin-top: 10px;
+}
+.sub-contents .bank-table{
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 0px 60px rgba(0,0,0,0.14);
+    overflow: hidden;
+}
+.sub-contents #bank-address{
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+.sub-contents .bank-table > li{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.sub-contents .bank-table > li > .table-subject{
+    width: 20%;
+    float: left;
+    padding:20px;
+}
+.sub-contents .bank-table > li > .table-content{
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding:20px;
+    color: #1c66b1;
+    font-weight: 800;
+}
+.sub-contents .bank-table#bank-account > li > .table-content{
+    width: 65%;
+}
+.sub-contents .bank-table#bank-account button{
+    width :13%;
+    margin:0 1%;
+    height: 40px;
+    margin-top: 10px;
 }
 /* -----------------contact-------------------- */
 section .table-list{
