@@ -8,7 +8,7 @@
 </div>
 <!------------------------- contents --------------------------->
 <section class="sub-contents page-width">
-    <h5>KOR 코인관련 각종 소식을 전해드립니다.</h5>
+    <h5>KORW의 각종 소식을 전해드립니다.</h5>
     <ul class="table-list" id="notice-list">
         <li>
             <div class="num">1</div>

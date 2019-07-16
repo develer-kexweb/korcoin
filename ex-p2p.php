@@ -2,8 +2,8 @@
 <!------------------------- sub header --------------------------->
 <div class="page-title-bg">
     <div class="page-title page-width">
-        <p>EXCHANGE</p>
-        <h3>P2P Coin</h3>
+        <p>KORW Mall</p>
+        <h3>포인트 나눔</h3>
     </div>
 </div>
 <!------------------------- contents --------------------------->

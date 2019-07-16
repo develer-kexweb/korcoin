@@ -2,15 +2,15 @@
 <!------------------------- sub header --------------------------->
 <div class="page-title-bg">
     <div class="page-title page-width">
-        <p>편리하고 안전한 암호화폐 P2P 플랫폼</p>
-        <h3>KOR EXCHANGE</h3>
+        <p>실생활에 플러스가 되는 포인트몰</p>
+        <h3>KORW Mall</h3>
     </div>
 </div>
 <!------------------------- contents --------------------------->
 <section class="sub-contents page-width">   
 <form action="" id="member-cert">
     <h5>정회원 인증</h5>
-    <p>P2P 거래 및 마켓기능 이용을 위한 정회원 인증절차를 진행합니다.</p>
+    <p>포인트 충전 및 마켓기능 이용을 위한 정회원 인증절차를 진행합니다.</p>
     <span>1단계</span>
     <label for="email-cert">이메일 인증</label>
     <input type="text" name="" id="email-cert">
@@ -25,7 +25,7 @@
     <input type="button" value="인증하기">
     <hr>
     <span>3단계</span>
-    <label for="bank-cert">거래 계좌 정보 인증</label>
+    <label for="bank-cert">포인트 환급 계좌 정보 인증</label>
     <input type="button" value="인증하기">
     <hr>
     <div> 

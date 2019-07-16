@@ -28,6 +28,28 @@
         font-size: 16px;
         line-height: 30px;
     }
+    .goods-contents{
+        position: relative;
+    }
+    .goods-contents > img{
+        width: 20%;
+        float: none;
+        margin: 0 40%;
+        margin-bottom: 10%;
+    }
+    .goods-contents > div{
+        float:none;
+        bottom:0;
+        width: 100%;
+        position: absolute; 
+    }
+    .goods-contents > div:last-child{
+        width: 100%;
+        right: 0;
+    }
+    .goods-contents > div > p{
+        margin:0;
+    }
 }
 @media (max-width: 1024px){
     #content-2 #kor-2{
@@ -48,6 +70,8 @@
         width: 600px;
         height: 500px;
     }
+    .store-list > ul > li{
+        height: 80%;
 }
 @media all and (max-width: 860px){
     #content-1 #kor-1 #con-1{
@@ -62,6 +86,25 @@
         left: 15%;
         top: 0px;
         margin-left: 0;
+    }
+    .bucket-list > li > img{
+        width: 130px;   
+    }
+    bucket-list > li > div{
+        width: 40%;
+    }
+    .bucket-list > li{
+        height:150px;
+    }
+    .bucket-list > li > div > span,
+    .bucket-list > li > div > p{
+        line-height: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .bucket-list > li > button{
+        width: 10%;
+        margin-top:40px;
     }
 }
 @media all and (max-width:768px){
@@ -81,8 +124,8 @@
         display:none;
     }
     #header-menu #kor-logo{
-        margin-left: 20px;
-        width: 70px;
+        margin-left:0;
+        width: 90px;
         margin-top: 10px;
     }
     #menu-bx{
@@ -179,9 +222,8 @@
         float: none !important;
     }
     #content-3 #kor-3 > li > div > h5:after{
-        position: relative;
-        margin: 0 auto;
         margin-top: 20px;
+        margin-bottom:20px;
     }
     #content-3 #kor-3 > li > div > h5{
         line-height: 36px;
@@ -237,6 +279,59 @@
         background-position: center;
         height:400px;
     }
+    .store-list > ul > li{
+        height: 80%;
+        width:50%;
+    }
+    .store-form > form{
+        width: 100%;
+    }
+    .store-form > form > input[type=text]{
+        width:70%;
+    }
+    .store-form > form > input[type=submit]{
+        width: 20%;
+        margin: 10px 0;
+    }
+    .store-form > form > label > img{
+        width: 20%;
+        margin: 0 40%;
+    }
+    .goods-notice > ul > li{
+        font-size: 14px;
+        line-height: 24px;
+        border-bottom: 1px solid #eee;
+        padding: 10px;
+    }
+    .bucket-list > li > div > h4{
+        font-size: 14px;
+    }
+    .bucket-list > li > div > h6{
+        font-size: 18px;
+        margin:0;     
+    }
+    .bucket-list > li > button{
+        position: absolute;
+        right:0;
+        width: 50px;
+        font-size: 14px;
+    }
+    .point-account{
+        height: 70px;
+    }
+    .point-account > h4{
+        width: 40%;
+        text-align: left;
+        text-indent: 20px;
+        margin:0;
+        line-height: 70px;
+    }
+     .point-account > p{
+        width: 40%;
+        margin: 0;
+        line-height:70px;
+     }
+     
 }
 @media all and (max-width:640px){
     h3{
@@ -337,6 +432,11 @@
     section .search > input[type=submit]{
         margin-top: 20px;
     }
+    .goods-help-notice > ul > li{
+        width: 50%;
+        height: 90%;
+        display: block;
+    }
     .sub-contents .bank-table > li > .table-subject{
         width: 50%;
     }
@@ -373,6 +473,19 @@
     }
     footer #address address{
         font-size: 12px;
+    }
+    .store-form > form > input[type=text]{
+        width:100%;
+        font-size: 14px;
+    }
+    .store-form > form > input[type=submit]{
+        width: 100%;
+    }
+    .goods-contents > img{
+        width: 40%;
+        float: none;
+        margin: 0 30%;
+        margin-bottom: 10%;
     }
 }
 @media all and (max-width:480px){
@@ -458,4 +571,91 @@
         background-position: center;
         height:300px;
     }
+    .store-list > ul > li{
+        height: 80%;
+        width:100%;
+    }
+    .goods-contents-select{
+        width: 100%;
+    }
+    .goods-contents-select > form > input[type=submit]{
+        width: 100%;
+    }
+    .goods-contents > img{
+        margin-bottom: 1%;
+        height: 80%;
+    }
+    .goods-contents > div{
+        position: relative;
+        width: 100%;
+        left:0;
+        text-align :center;
+    }
+    .goods-contents > div:last-child{
+        text-align :center;
+        margin:0;
+    }
+    .goods-contents > div > p{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .goods-contents-select > form > input[type=number]{
+        width: 100%;
+        font-size: 16px;
+    }
+    .store-list > button{
+        width: 100%;
+    }
+    .bucket-list > li{
+        position:relative;
+        height: auto;
+        text-align: center;
+    }
+    .bucket-list > li > img{
+        position: relative;
+        display:block;
+        width: 200px;
+        margin: 0 auto;
+        float: none;
+    }
+    .bucket-list > li > div {
+        width :100%;
+    }
+    .bucket-list > li > button{
+        position: relative;
+        width: 200px;
+        height: 40px;
+        margin-top:0;
+        margin-bottom: 30px;
+    }
+    section.sub-contents p{
+        padding: 5px;
+    }
+    .point-account{
+        height: 130px;
+    }
+    .point-account > h4{
+        width: 50%;
+         line-height: 50px;
+    }
+    .point-account > p{
+        width: 50%;
+        font-size: 14px;
+        text-align: center;
+        margin-top:0;
+        line-height: 50px;
+    }
+    .point-account > button{
+         width: 90%;
+         margin: 0 5%;
+         margin-top: 10px;
+         font-size: 14px;
+     }
+     .all-cost > h6{
+         font-size: 18px;
+     }
+     .all-cost > p{
+         font-size: 28px;
+     }
 }

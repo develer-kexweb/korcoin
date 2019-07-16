@@ -279,7 +279,7 @@ header{
 }
 #header-menu #kor-logo{
     display: inline-block;
-    width: 95px;
+    width: 130px;
     height: auto;
     margin-top: 20px;
 }
@@ -313,11 +313,11 @@ header{
 #menu-bx > ul{
     overflow: hidden;
     position: relative;
-    width: 700px;
+    width: 600px;
 }
 #menu-bx > ul > li{
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
     position: relative;
 }
@@ -369,7 +369,7 @@ header{
     font-size: 16px;
     line-height: 40px;
     color: #000;
-    transition: all 0.2s ease;
+    transition: background 0.2s ease;
 }
 #menu-bx .sub:hover > li > a{
     color:#ffffff;
@@ -545,22 +545,25 @@ header{
     width: 100%;
     overflow: hidden;
     margin-bottom: 30px;
+
 }
 #content-3 #kor-3 > li > img{
-    width: 20%;
-    float: left;
+    width: 30%;
+    display:block;
+    margin: 0 auto;
 }
 #content-3 #kor-3 > li:nth-child(2) > img{
     float: right;
 }
 #content-3 #kor-3 > li > div{
-    width: 77%;
+    width: 100%;
     float: left;
-    margin-left: 3%;
     position: relative;
 }
 #content-3 #kor-3 > li > div > h5{
     line-height:0;
+    display:block;
+    text-align:center;
 }
 #content-3 #kor-3 > li > div > h5:after{
     content:'';
@@ -570,6 +573,8 @@ header{
     display: block;
     margin-top: 30px;
     position: absolute;
+    left:50%;
+    margin-left:-50px;
 }
 #content-3 #kor-3 > li:nth-child(2) > div{
     text-align: right;
@@ -968,12 +973,13 @@ section #kor-info-bg{
 .sub-contents #bank-address{
     width: 100%;
     position: relative;
-    margin-top: 100px;
 }
 .sub-contents .bank-table > li{
     width: 100%;
     position: relative;
     overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px;
 }
 .sub-contents .bank-table > li > .table-subject{
     width: 20%;
@@ -996,6 +1002,265 @@ section #kor-info-bg{
     margin:0 1%;
     height: 40px;
     margin-top: 10px;
+}
+/* -----------------store----------------------- */
+.store-form{
+    width: 100%;
+    display:block;
+    position: relative;
+}
+.store-form > form{
+    width: 70%;
+    margin: 0 auto;
+}
+.store-form > form > label > img{
+    width: 8%;
+    height: auto;
+    vertical-align: middle;
+}
+.store-form > form > input[type=text]{
+    width: 80%;
+    height: 40px;
+}
+.store-form > form > input[type=submit]{
+    width: 10%;
+    height: 40px;
+}
+.store-list > ul{
+    width : 100%;
+    overflow: hidden;
+}
+.store-list > ul > li{
+    width : 25%;
+    float : left;
+    height: 80%;
+    margin-bottom: 20px;
+}
+.store-list > ul > li > a{
+    text-align: center;
+    line-height: 0px;
+    display: block;
+    height: 100%;
+    border: 1px solid #eee;
+    margin: 10px;
+    color: #000;
+    transition: all 0.2s ease;
+}
+.store-list > ul > li > a:hover{
+    border: 1px solid #1c66b1;
+}
+.store-list > ul > li > a > img{
+    padding-top: 20px;
+    width:80%;
+    margin: 0 10%;
+}
+.store-list > ul > li > a > p{
+    color: #1c66b1;
+    font-weight: 800;
+}
+/* ---------------store content----------------- */
+.goods-contents{
+    width: 100%;
+    position:relative;
+    overflow:hidden;
+}
+.goods-contents > img{
+    float: left;
+    width: 15%;
+    height: auto;
+    vertical-align: middle;
+}
+.goods-contents > div{
+    float: left;
+    line-height: 0;
+    width: 55%;
+    margin-top: 80px;
+}
+.goods-contents > div:last-child{
+    width:30%;
+    text-align: right;
+}
+.goods-contents > div > h4{
+    font-size: 14px;
+    font-weight :400;
+}
+.goods-contents > div > h6{
+    font-size: 24px;
+    margin:0;
+    height: 30px;
+    line-height: 30px;
+}
+.goods-contents > div > p{
+    font-size: 24px;
+    color: #0094f5;
+    font-weight: 800;
+    padding:0;
+}
+.goods-img{
+    width: 40%;
+    margin: 0 30%;
+}
+.goods-contents-select{
+    width: 400px;
+    margin: 0 auto;
+}
+.goods-contents-select > form{
+    display: block;
+    text-align: center;
+}
+.goods-contents-select > form > input[type=number]{
+    display :block;
+    width: 200px;
+    height: 40px;
+    color: #000;
+    background: #dddddd;
+    border: 0;
+    margin: 0 auto;
+    text-indent: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.goods-contents-select > form > input[type=number]::-webkit-inner-spin-button{
+    opacity: 1;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.goods-contents-select > form > input[type=submit]{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.store-list > button{
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+}
+.goods-help-notice > ul{
+    display :block;
+    overflow: hidden;
+}
+.goods-notice > ul > li{
+    line-height: 30px;
+}
+.goods-notice > ul > li:first-child{
+    color: #00358e;
+    font-weight:800;
+}
+.goods-help-notice > ul > li{
+    width: 25%;
+    float:left;
+    text-align: center;
+}
+.goods-help-notice > ul > li > img{
+    width: 40%;
+    margin: 0 30%;    
+}
+.bucket-list{
+    border-bottom: 2px solid #00358f;
+}
+.bucket-list > li{
+    position:relative;
+    height: 200px;
+    border-bottom: 1px solid #DDD;
+    padding: 10px;
+}
+.bucket-list > li:hover{
+    background :#eee;
+}
+.bucket-list > li > img{
+    width: 15%;
+    border: 1px solid #ddd;
+    float: left;
+}
+.bucket-list > li > div{
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+.bucket-list > li > div > h4{
+    font-size: 16px;
+    line-height: 10px;
+    margin-top: 2%;
+}
+.bucket-list > li > div > h6{
+    font-size: 24px;
+    margin: 0;
+}
+.bucket-list > li > div > span{
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+}
+.bucket-list > li > div > p{
+    width: 100%;
+    display: block;
+    font-size: px;
+    line-height:50px;
+    padding:0;
+    font-weight:800;
+    color: #3067b1;
+    margin:0;  
+}
+.bucket-list > li > button{
+    width: 15%;
+    height: 50px;
+    margin-top: 20px;
+}
+.point-account{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    box-shadow: 0px 0px 60px rgba(0,0,0,0.2);
+}
+.point-account > h4{
+    width: 10%;
+    float:left;
+    height:50px;
+    line-height: 50px;
+    margin-top: 25px;
+    text-align: center;
+}
+.point-account > p{
+    float: left;
+    width: 70%;
+    text-align: right;
+    font-size: 20px;
+    height:50px;
+    margin-top: 25px;
+    line-height: 50px;
+    color:#1c66b1;
+    font-weight: 800;
+}
+.point-account > button{
+    width: 15%;
+    margin: 0 2.5%;
+    margin-top: 25px;
+    height:50px;
+}
+#buy-button{
+    display: block;
+    width:300px;
+    height: 40px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.all-cost{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.all-cost > h6{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.all-cost > p{
+    font-size: 34px;
+    margin: 0;
+    color: #1c66b1;
+    font-weight: 800;
 }
 /* -----------------contact-------------------- */
 section .table-list{

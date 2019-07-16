@@ -8,7 +8,7 @@
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>KOR COIN</title>
+    <title>KORW</title>
 </head>
 <body>
 <!------------------------- header --------------------------->
@@ -39,26 +39,19 @@
                       <li><a href="com-history.php" target="_parent">연혁</a></li>
                   </ul>
               </li>
-              <li><a href="#">Coinsimilar</a>
+              <li><a href="#">KORW</a>
               <span class="underline"></span>
                   <ul class="sub">
-                      <li><a href="coin-crypto.php" target="_parent">Cryptocurrency</a></li>
-                      <li><a href="coin-root.php" target="_parent">Root in</a></li>
-                      <li><a href="coin-system.php" target="_parent">System</a></li>
-                  </ul>
-              </li>
-              <li><a href="#">KOR</a>
-              <span class="underline"></span>
-                  <ul class="sub">
-                      <li><a href="kor-about.php" target="_parent">About KOR</a></li>
+                      <li><a href="kor-about.php" target="_parent">About KORW</a></li>
                       <li><a href="kor-vision.php" target="_parent">Vision</a></li>
                   </ul></li>
-              <li><a href="#">Exchange</a>
+              <li><a href="#">KORW Mall</a>
               <span class="underline"></span>
                   <ul class="sub">
-                      <li><a href="ex-p2p.php" target="_parent">P2P Coin</a></li>
-                      <li><a href="ex-market.php" target="_parent">Market</a></li>
-                      <li><a href="ex-wallet.php" target="_parent">My Wallet</a></li>
+                      <li><a href="ex-p2p.php" target="_parent">포인트 나눔</a></li>
+                      <li><a href="ex-market.php" target="_parent">KORW MALL</a></li>
+                      <li><a href="ex-store.php" target="_parent">제휴마켓</a></li>
+                      <li><a href="ex-wallet.php" target="_parent">포인트 지갑</a></li>
                   </ul>
                 </li>
               <li><a href="#">Contact</a>
@@ -87,23 +80,17 @@
                       <li><a href="com-history.php" target="_parent">연혁</a></li>
                   </ul>
               </li>
-              <li><a href="#">Coinsimilar</a>    
+              <li><a href="#">KORW</a>          
                   <ul class="sub">
-                     <li><a href="coin-crypto.php" target="_parent">Cryptocurrency</a></li>
-                      <li><a href="coin-root.php" target="_parent">Root in</a></li>
-                      <li><a href="coin-system.php" target="_parent">System</a></li>
-                  </ul>
-              </li>
-              <li><a href="#">KOR</a>          
-                  <ul class="sub">
-                      <li><a href="kor-about.php" target="_parent">About KOR</a></li>
+                      <li><a href="kor-about.php" target="_parent">About KORW</a></li>
                       <li><a href="kor-vision.php" target="_parent">Vision</a></li>
                   </ul></li>
-              <li><a href="#">Exchange</a>        
+              <li><a href="#">KORW Market</a>        
                   <ul class="sub">
-                      <li><a href="ex-p2p.php" target="_parent">P2P Coin</a></li>
-                      <li><a href="ex-market.php" target="_parent">Market</a></li>
-                      <li><a href="ex-wallet.php" target="_parent">My Wallet</a></li>
+                      <li><a href="ex-p2p.php" target="_parent">포인트 나눔</a></li>
+                      <li><a href="ex-market.php" target="_parent">KORW MALL</a></li>
+                      <li><a href="ex-store.php" target="_parent">제휴마켓</a></li>
+                      <li><a href="ex-wallet.php" target="_parent">포인트 지갑</a></li>
                   </ul>
                 </li>
               <li><a href="#">Contact</a>           

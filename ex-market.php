@@ -2,8 +2,8 @@
 <!------------------------- sub header --------------------------->
 <div class="page-title-bg">
     <div class="page-title page-width">
-        <p>EXCHANGE</p>
-        <h3>Market</h3>
+        <p>KORW Mall</p>
+        <h3>KORW Mall</h3>
     </div>
 </div>
 <!------------------------- contents --------------------------->
